@@ -3,7 +3,7 @@
 // Interactive yt-dlp wrapper using youtube-dl-exec.
 // - Prompts for output quality (1080p/720p/480p/Audio-only) unless overridden.
 // - Shows yt-dlp's native progress bar (stdio: "inherit").
-// - Supports playlists (default on), subtitles, cookies, proxies, etc.
+// - Supports playlists (default on), subtitles, cookies, proxies, etc..
 
 import { existsSync, mkdirSync, readFileSync } from "node:fs";
 import { join, resolve } from "node:path";
